@@ -1,0 +1,26 @@
+@font-face { 
+  font-family: mistral; /*这里是说明调用来的字体名字*/ 
+  src: url('../fonts/mistral.ttf'); /*这里是字体文件路径*/ 
+} 
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand { 
+	font-family: mistral; 
+    font-size: 64px;
+    color: white;
+    line-height: 77px;
+    margin-top: 50px;
+    float: none;
+}
+
+.center {
+    width: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
